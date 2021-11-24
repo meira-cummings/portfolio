@@ -4,8 +4,6 @@ This portfolio is a small project using HTML / CSS / Bootstrap. I will be using 
 
 [Live Heroku Deployment](https://portfolio-meira.herokuapp.com)
 
-![imge]()
-
 ## Technologies Used
 
 * HTML
