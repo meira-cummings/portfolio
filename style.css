@@ -13,17 +13,20 @@ body{
 }
 
 .title-icon{
-    font-size : 40px;
+    font-family: 'Montserrat', sans-serif; 
+    font-size : 30px;
     font-weight : bold;
 }
 
 p{
+    font-family: 'Noto Sans JP', sans-serif;
     font-size : 14px;
 }
 
 h2{
+    font-family: 'Montserrat', sans-serif;
     font-weight : bold;
-    font-size : 30px;
+    font-size : 20px;
     margin-bottom : 20px;
 }
 
@@ -31,6 +34,9 @@ a.font-black{
     color : #000 !important;
 }
 
+.nav-link{
+    font-family: 'Noto Sans JP', sans-serif;
+}
 /*********
 
 ABOUT
@@ -51,22 +57,27 @@ ABOUT
 }
 
 #about .name{
+    font-family: 'Noto Sans JP', sans-serif;
     font-size : 20px;
+    font-weight: bold;
 }
 
 #about .vocation{
+    font-family: 'Noto Sans JP', sans-serif;
     font-size : 17px;
-    color : #000;
+    color : gray;
     margin-bottom : 10px;
 }
 
 #about .skills{
+    font-family: 'Noto Sans JP', sans-serif;
     font-size : 14px;
     color : #00ABAE;
     margin-bottom : 10px;
 }
 
 #about .email{
+    font-family: 'Noto Sans JP', sans-serif;
     font-size : 14px;
     margin-top : 14px;
 }
@@ -100,5 +111,18 @@ PROJECT
 }
 
 #project .card-title{
+    font-family: 'Montserrat', sans-serif;
     font-weight : bold;
+}
+
+.btn-primary{
+    background-color: #6C757D;
+    border-color: #6C757D;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+.btn-secondary{
+    background-color:#212529;
+    border-color: #212529;
+    font-family: 'Noto Sans JP', sans-serif;
 }
