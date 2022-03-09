@@ -4,38 +4,38 @@ COMMON
 
 **********/
 
-body{
-    font-family: "monospace", sans-serif;
+body {
+  font-family: "monospace", sans-serif;
 }
 
-.font-primary{
-    color : #00ABAE
+.font-primary {
+  color: #00abae;
 }
 
-.title-icon{
-    font-family: 'Montserrat', sans-serif; 
-    font-size : 30px;
-    font-weight : bold;
+.title-icon {
+  font-family: "Montserrat", sans-serif;
+  font-size: 30px;
+  font-weight: bold;
 }
 
-p{
-    font-family: 'Noto Sans JP', sans-serif;
-    font-size : 14px;
+p {
+  font-family: "Noto Sans JP", sans-serif;
+  font-size: 14px;
 }
 
-h2{
-    font-family: 'Montserrat', sans-serif;
-    font-weight : bold;
-    font-size : 20px;
-    margin-bottom : 20px;
+h2 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+  margin-bottom: 20px;
 }
 
-a.font-black{
-    color : #000 !important;
+a.font-black {
+  color: #000 !important;
 }
 
-.nav-link{
-    font-family: 'Noto Sans JP', sans-serif;
+.nav-link {
+  font-family: "Noto Sans JP", sans-serif;
 }
 /*********
 
@@ -43,52 +43,52 @@ ABOUT
 
 **********/
 
-#about{
-    margin : 60px auto;
-    max-width : 400px;
-    text-align : center;
+#about {
+  margin: 60px auto;
+  max-width: 400px;
+  text-align: center;
 }
 
-#about img{
-    border-radius : 50%;
-    margin-bottom : 10px;
-    height : 120px;
-    width : 120px;
+#about img {
+  border-radius: 50%;
+  margin-bottom: 10px;
+  height: 120px;
+  width: 120px;
 }
 
-#about .name{
-    font-family: 'Noto Sans JP', sans-serif;
-    font-size : 20px;
-    font-weight: bold;
+#about .name {
+  font-family: "Noto Sans JP", sans-serif;
+  font-size: 20px;
+  font-weight: bold;
 }
 
-#about .vocation{
-    font-family: 'Noto Sans JP', sans-serif;
-    font-size : 17px;
-    color : gray;
-    margin-bottom : 10px;
+#about .vocation {
+  font-family: "Noto Sans JP", sans-serif;
+  font-size: 17px;
+  color: gray;
+  margin-bottom: 10px;
 }
 
-#about .skills{
-    font-family: 'Noto Sans JP', sans-serif;
-    font-size : 14px;
-    color : #00ABAE;
-    margin-bottom : 10px;
+#about .skills {
+  font-family: "Noto Sans JP", sans-serif;
+  font-size: 14px;
+  color: #00abae;
+  margin-bottom: 10px;
 }
 
-#about .email{
-    font-family: 'Noto Sans JP', sans-serif;
-    font-size : 14px;
-    margin-top : 14px;
+#about .email {
+  font-family: "Noto Sans JP", sans-serif;
+  font-size: 14px;
+  margin-top: 14px;
 }
 
-#about .icons{
-    margin-top : 20px;
-    font-size : 30px;
+#about .icons {
+  margin-top: 20px;
+  font-size: 30px;
 }
 
-#about .icons a{
-    color : #000;
+#about .icons a {
+  color: #000;
 }
 
 /**************
@@ -97,32 +97,34 @@ PROJECT
 
 ***************/
 
-#project{
-    margin : 60px auto;
-    width : 80%;
+#project {
+  margin: 60px auto;
+  width: 80%;
 }
 
-#project h2{
-    text-align : center;
+#project h2 {
+  text-align: center;
 }
 
-#project .card img{
-    width : 100%;
+#project .card-title {
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
 }
 
-#project .card-title{
-    font-family: 'Montserrat', sans-serif;
-    font-weight : bold;
+.btn-primary {
+  background-color: #6c757d;
+  border-color: #6c757d;
+  font-family: "Noto Sans JP", sans-serif;
 }
 
-.btn-primary{
-    background-color: #6C757D;
-    border-color: #6C757D;
-    font-family: 'Noto Sans JP', sans-serif;
+.btn-secondary {
+  background-color: #212529;
+  border-color: #212529;
+  font-family: "Noto Sans JP", sans-serif;
 }
 
-.btn-secondary{
-    background-color:#212529;
-    border-color: #212529;
-    font-family: 'Noto Sans JP', sans-serif;
+#project .project-video {
+  width: 100%;
+  height: 270px;
+  background-color: #000;
 }
